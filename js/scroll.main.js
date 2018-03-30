@@ -9,6 +9,19 @@ $(function() {
         setHeights: false,
         scrollbars:false,
 		before:function(i) {
+            
+            if(i===0){
+                $('.arrow-up').css("display","none");
+            }
+            else{
+                $('.arrow-up').css("display","block");
+            }
+            if(i===66){
+                $('.arrow').css("display","none");
+            }
+            else{
+                $('.arrow').css("display","block");
+            }
 
 			if(i===31 || i===32 || i===40 || i===51 || i===52 ||i===63 || i===64) {
 				$('.arrow, .arrow-up').css("border-color","black");
