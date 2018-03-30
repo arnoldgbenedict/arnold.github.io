@@ -6,11 +6,60 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         
 		<link rel="stylesheet" href="main.css" />
-        <link rel=preload as=document href="content.html">
-        <link rel="preload" as="document" href="book.html">
-        <link rel="preload" as="document" href="book2.html">
-        <link rel="preload" as="document" href="mid.html">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <style>
+            .scroll{
+                z-index: 10003;
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 50px;
+            }
+            .arrow {
+              box-sizing: border-box;
+              height: 3vw;
+              width: 3vw;
+              border-style: solid;
+              border-color: white;
+              border-width: 0px 1px 1px 0px;
+              transform: rotate(45deg);
+              transition: border-width 150ms ease-in-out;
+            }
+
+            .arrow:hover {
+              border-bottom-width: 4px;
+              border-right-width: 4px;
+            }
+            
+            .scroll-up{
+                z-index: 10003;
+                position: fixed;
+                right: 0;
+                top: 0;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 50px;
+            }
+            .arrow-up {
+              box-sizing: border-box;
+              height: 3vw;
+              width: 3vw;
+              border-style: solid;
+              border-color: white;
+              border-width: 1px 0px 0px 1px;
+              transform: rotate(45deg);
+              transition: border-width 150ms ease-in-out;
+            }
+
+            .arrow-up:hover {
+              border-top-width: 4px;
+              border-left-width: 4px;
+            }
+        </style>
         <script src="jquery.min.js"></script>
         <script>
             jQuery(window).load(function(){
@@ -101,7 +150,7 @@
 	<body>
             <div class="loader-overlay"></div>
 		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+			<div id="wrapper" class="divided panel">
 
 				<!-- Banner -->
 					<section class="banner invert style1 orient-left content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
@@ -109,7 +158,7 @@
                             <h1>For the <span style="color:red;font-family: 'Pacifico', cursive;">Girl</span> I loved</h1>
 							<p class="major">Dreary and elusive literature of all times</p><br><br>
 							<ul class="actions vertical">
-								<li><a href="book.html" class="button big wide special smooth-scroll-middle">Let's Begin</a></li>
+								<li><span href="" onclick="$.scrollify.move('#2');" class="button big wide smooth-scroll-middle">Let's Begin</span></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -117,6 +166,1094 @@
 						</div>
 					</section>
         </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="arrow-up scroll-up"></div>
+        <div class="arrow scroll"></div>
+        
+        
+        <!-- One -->
+        <div id="wrapper" class="divided panel">
+            <section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <h1><strong>Chapter One</strong></h1>
+                    <h3>The Antecedent</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#5');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch1_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <p>Three years ago, during the heavy rains of May, my Grandma; who was practically my mom, my sister and my good friend died. It was the worst month of my life. I loved her more than anyone in this world, even more than my parents. I used to run and hide behind her when my mom used to scold me. She used to tell her childhood stories and I used to listen to them and I used to feel sad about missing the 1900's. My unforgettable childhood and early teens were spent with her even though no amount of time was ever enough. I still miss her. When you believe everything is finished, it might be the actual beginning.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                        <p>And, the same month I had completed my boards and was taking my long and agonizing vacation. It was time to decide the college. I don't recall how I came to know about Christ University. But, yes that was my first and the only college to apply. I came to Bangalore to attend the interview and I got selected as expected. As Bible says, trust in Christ and I did too, trusted too much that I was sure that that was my day. I think even the college was too Christ-ly, they asked me to pay the fees on the third day.</p>
+                            
+						</div>
+					</section>
+                    
+
+
+        </div>
+        
+        
+        
+        
+        <!-- Two -->
+        <div id="wrapper" class="divided panel">
+            <section id="4" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+
+                <div class="content">
+                    <h1><strong>Chapter Two</strong></h1>
+                    <h3>The Lost Sheep</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#7');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch2_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>College started and I was new to Bangalore, alone and away from my parents. Little bit thrilled, you know – freedom. Still, I knew hunting after happiness is like hunting after the lost sheep in the wilderness - when you find it, the chances are that it is a skeleton.
+                                </p><p>Mom and my sister came to bid goodbye till the hostel. Tears filled, not moms, but mine with a mixture of little happiness and thought that there's nobody at home to pull my sister's legs. And yes, how can I forget? Mom's hand-made food, I'll miss that the most.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <!-- Three -->
+        <div id="wrapper" class="divided  panel">
+            <section id="6" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color4">
+
+                <div class="content">
+                    <h1><strong>Chapter Three</strong></h1>
+                    <h3>Metamorphosis</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#10');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch3_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color4">
+                        
+						<div class="content">
+                            <p>We all have learnt about "Metamorphosis" in our biology subject. The process where caterpillar becomes a butterfly. Life is a never-ending metamorphosis. It is always changing, always transforming. Sometimes a change is followed by positive results, but on the darker side, a metamorphosis can lead to damage or suffering. But of course, it's one's own decision to improve, destroy themselves.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color4">
+                        
+						<div class="content">
+                            <p>My college life is also like a metamorphic stage of my life even though I couldn't conclude whether I am changing into a filthy caterpillar or a pretty butterfly figuratively. In this journey I met lot of people with different personalities, some generous, some irritating as well as helpful, and some very annoying. I was much more of an introvert and felt very insecure about little things before coming to this college. But now, I have changed because living in the hostel helped me have unswerving interactions with people and improved me socially. </p>
+
+                             <p>But this story is related to the person who turned my nights into sleepless nights, who turned my lecture classes into dreaming rooms, who turned me into something which I thought I would never become. Readers can turn this book down if you don't want to know what happened to me was rife with despair and idiocy.
+                            </p>
+                            
+						</div>
+					</section>
+        </div>
+
+        
+        
+        
+        
+        <!-- Four -->
+        <div id="wrapper" class="divided  panel">
+            <section id="9" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color2">
+
+                <div class="content">
+                    <h1><strong>Chapter Four</strong></h1>
+                    <h3>The Outset</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#13');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch4_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color2">
+                        
+						<div class="content">
+                            <p>Like every other fresher in college, I had few friends from my place where some of them were also my classmates. We had this new friendship thing going on, we had movie nights and other days we shared some stories which were untold before. There was one friend who was from Trissur who changed the story of my life. He said he saw some girl from another class that he found very attractive and would like to date.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color2">
+                        
+						<div class="content">
+                            <p>But as all so-called infatuations are very easily influential in a person's life. I say infatuations are blind and not love, love is more about all-seeing and accepting. He wanted to know more about her, for starters let say he didn't know her name not even the class she was in. All of us teased him so much that he had thought he was alone in this. But as a good friend, I used to support him even though I knew once you get attached, you are fucked up. Some of us guard our heart with everything we have while there are some whose feelings knocks them like a bullet, ready to surrender to the fatal blow of love.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        <!-- Five -->
+        <div id="wrapper" class="divided  panel">
+            <section id="12" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <h1><strong>Chapter Five</strong></h1>
+                    <h3>Coup De Foudre</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#16');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch5_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <p>Well, the title speaks for itself. It's French, the language of love which translates into 'Love at first sight'. Poets and artists may have sugar-coated the thought of falling in love at first sight so much that we conceptualize love into finally finding The One. What makes you decide to spend the rest of your life with someone does not happen in a second. Beautiful love stories are a work in progress. I am no better, even I believed in The One, the pureness of intention, maybe that's the reason I never found one.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style1 orient-center content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <p>This chapter is about how I found my love at first sight. My friend heeding around the corridor to for his ‘The One’ along with me beside him, my eyes fell on the girl in a pink dress. She was so beautiful that I couldn't take my eyes off her. My doe-eyed eyes following her while she walked from one end to another of the hallway laughing at her friend's joke. There were no reservations or second thoughts, the moment I saw her and, in an instant, knew in my bones that she was The One. She had beautiful eyes, the kind that you could get lost and I guess I did. The one thing I can't stop thinking was her smile, the one I saw in her every day. I called her ‘the girl from Mangalore’.</p>
+                            
+						</div>
+                        <div class="image">
+                            <img src="img/ch5_2.JPG" alt="" />
+                        </div>
+					</section>
+        </div>
+
+
+        
+        
+        
+        <!-- Six -->
+        <div id="wrapper" class="divided  panel">
+            <section id="15" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color6">
+
+                <div class="content">
+                    <h1><strong>Chapter Six</strong></h1>
+                    <h3>The Love Letters</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#19');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch6_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color6">
+                        
+						<div class="content">
+                            <p>The following week I got her number from her classmate, thinking I would start off texting with her casually. But the excitement took me to another level. I picked up my phone to call her. I heard a tight voice over the phone, it turned out to be her mom. All of a sudden, I didn't know what had to be said, I huddled all my idiocy and spoke to her mom as if I called from a call center. I felt so stupid after that incident.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color6">
+                        
+						<div class="content">
+                            <p>I exactly remember that on my birthday I started texting her which was few days after that phone call. She didn't have any idea whom she was texting, she thought I was someone whom she expected to get a call from. We spoke about general things. I tried sharing my stories, but she didn't give any ears to those. Later, when she came to know who I was, she was a little annoyed to the fact that I was actually behind her. The texts became bleaker each day. The fact that someone's effort is the reflection of their interest in you always muddled me. To be honest, I had no idea how a girl's mind worked. We used to fight on things which didn't have any meaning in our lives. I didn't know where my life was taking me or why was I doing all those things, but I was sure that she had something that won my spurs.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        <!-- Seven -->
+        <div id="wrapper" class="divided  panel">
+            <section id="18" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+
+                <div class="content">
+                    <h1><strong>Chapter Seven</strong></h1>
+                    <h3>The Heart Break</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#23');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch7_1.png" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>You might be wondering why it's so soon for a heartbreak as most of the Indian love stories should end with having extremely tragic or fortunate endings, but this chapter is just halfway through the book. This is not about me, but about ‘The Girl from Mangalore’. Let's talk about heartbreaks. It’s hard to wait around for something you know might never happen: but it’s hard to give up when you know it's everything you wanted. There's no denying the pain of a broken heart, but luckily there are ways to cope with one. Whether you're going through a breakup or grieving the loss of a loved one, honesty, compassion, social support and self-care can go a long way toward easing the pain.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>Now let's get onto to her story. Few weeks before I confronted her, she got a proposal from her friend, I'll call him ‘The Boy from Bengal’. She was happy with the proposal still confused about whether he was the right one. She gradually started liking that boy, while unpleasant things happened during it like she found him dating other girls along with her. Like it or not, she still tried making things right between them. Moreover, she found gross things in his bag and eventually his loathing for her started. She was heartbroken and fixed her mind not to date any person henceforth.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>She rings me up saying about the things that happened to her in sobbing tone. But, wait. It's been 8 months since I started talking with her - didn't even told me that she was committed to him whenever I asked her whether she was. I understood that people are not against falling in love with someone or boasting about their relationships, but the deeper issue here is that they are paranoid. They are afraid that they would make a wrong decision about one of the most important things in life and end up feeling dejected, disappointed and hurt; this is what scares them.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        <!-- Eight -->
+        <div id="wrapper" class="divided  panel">
+            <section  id="22" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+
+                <div class="content">
+                    <h1><strong>Chapter Eight</strong></h1>
+                    <h3>The Irrevocable Deeds</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#28');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch8_1.jpg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <p>Everybody makes mistakes in this world; it is a fact of life. Somewhere along the line, everybody is going to make a bad decision or do something they knew they should not have. I believe mistakes allow you to learn something from a situation and move on positively and possibly make you a better person. Sometimes, we do not realize we are doing something bad until we get hurt by it or we hurt someone else. If a person goes through life never making one mistake, they probably do not know much about life. Why? Because mistakes can sometimes teach us more than anything else in life. If we were perfect, nothing would make us curious or happy or sad. Mistakes give us more strength and make us stronger. But, what if a person makes the same mistake repeatedly, well he is called naive.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <p>After her breakup, I was so thrilled for getting a chance on her. I started talking more often, she talked to me frequently - used to share much of her life story, about her family and all. When she started expressing more openly I started doing things for her like making cards for her, drawing sketches of us, buying goodies and building gifts for her. One of my favourites was the ambigram where when I flipped my name upside down, I could read hers. I told everyone around me that I loved her because I was too proud that I did.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <p>Even though I did everything for her, I made terrible mistakes too. I had humiliated her in front of her class. I had broken her leg when she came out with me for the first time, which turned out to be the last. I got too excited that day and I dashed my bike to a truck. I felt so disgusted that day. I took her to a hospital and did her checkups, the only thing which was running in mind was the thought of how worthless and frivolous I was. Also, another day I had a fight with her best friend which made her feel embarrassed in front of them. I understand nobody in life is perfect. Everyone in the world makes mistakes and learns from them. But what do you call a person who repeats the same mistake again and again and makes the girl feel that you aren't the right person for her?</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <h3><quote>Every time when I liked the way you love, the very next moment you did something terrible and proved me that I am liking the wrong person.</quote></h3>
+                            
+                            <p class="align-right">-The Girl from Mangalore</p>
+                            
+						</div>
+                        <div class="image">
+                            <img src="img/ch8_2.jpeg" alt="" />
+                        </div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        <!-- Nine -->
+        <div id="wrapper" class="divided  panel">
+            <section  id="27" class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <h1><strong>Chapter Nine</strong></h1>
+                    <h3>The Parting</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#31');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch9_1.jpg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <p>We all know that nothing lasts forever and forever is a lie. It's not the parting or the absence that's sad. You love them, and that's why saying goodbye breaks your soul, saying goodbye to someone you wished to spend your life with is the saddest part of life.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <p>I never thought this day would come. I mean, I did know it was coming, but I just never thought it would be this soon. Three years of struggle faded in vain, complete void to my love. This happened recently before this story was recorded. We talked very frequently despite the cheap feats repeated from my side. She used to understand me quite well. She started telling her stories pondering upon the responsibilities she currently had. She started giving me hopes yet she just wanted me to be her friend. But, things changed, I started avoiding her to the fullest. Didn't reply to her messages, nor did picked her calls. Whenever she asked me what had happened, I used to answer her with my silence. Finally, I decided to say goodbye with a note saying "You have no idea how worthless you made me feel. You never made me happy". Reasons unexplained and unquestioned.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- One -->
+        <div id="wrapper" class="divided panel">
+            <section class="banner invert style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <p>Dear Readers,</p><p>
+	                   You might be wondering why all this drama. What happened exactly? Even the Girl from Mangalore might be having the same doubt. How could a person love someone for continuous three years and leave just like that? Did he actually love her? Well, we just reached half way of my complete story.</p>
+
+                </div>
+
+
+                <div class="image">
+                    <img src="img/ch10_pro.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided panel">
+					<section class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>Love decides everything in this world. It does not have any conditions or boundaries. We don’t know exactly what love is and where it comes from. But one thing is sure: we are nothing without love! There are times when we feel shy and timid when we are afraid of expressing the love we feel. Being afraid of embarrassing the other person or ourselves we hesitate to say the actual words “I love you”. One can say “I love you” in many ways: by means of nice presents and little notes, smiles and sometimes tears.</p>
+                            <p>Sometimes we show our love when we are quiet and do not say a word, at the other times – we speak loud to express it. Sometimes we show our love by impulsiveness. Many times, we have to show our love when we forgive someone.</p>
+                            <p>The problem with our world is that people don’t learn to listen to each other. They hear the words, but they don’t listen to the actions that accompany the words and do not mind the expression on the face.
+
+                        </p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided panel">
+					<section class="banner style5 orient-left content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right ">
+                        
+						<div class="content">
+                        <p>The way I chose to show my love was through my life itself. I gave up everything to show how much I could sacrifice for my love. The story you have read so far is the one I wanted people around me to know. And the story which is yet to be read is one which I want my love to know. </p>
+                            <p>What if everything you have read is just the mask which I wore? What if everything happened to me wasn't destiny but something which I wanted to happen? What if the love I had for her was all fake?</p>
+                            <br><br>
+                            <ul class="actions vertical" style="z-index:10000">
+                            <li><span href="" onclick="$.scrollify.move('#34');" class="button big wide smooth-scroll-middle">CONTINUE READING</span></li></ul>
+						</div>
+                        
+                        
+					</section>
+                    
+
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="wrapper" class="divided panel">
+            <section class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <h1><strong>Chapter Ten</strong></h1>
+                    <h3>The Genesis</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#37');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch10_1.jpg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <p>The actual story doesn't start with my granny's death instead, it started with my birth. My mom was diagnosed with hyperthyroid while carrying me in her womb. Doctors said that the child yet to be born might likely have some disability. Early infancy I was diagnosed with ASD, but that improved drastically by mid-teens. Yet doctors claimed that I was just a late talker misdiagnosed as ASD.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                        <p>My primary school life wasn't much interesting as it should be. I couldn't blend with the students of my class. I don't recall any day I played with anyone of them. I felt everyone around me are just kids and I hate to be in the class with slow and retarded kids. Even though I did exceptionally well in studies, I couldn't find any joy from my life. No one understood my feelings, not even my parents. The only thing kept me going was my craze towards stars and the sky. Every day I used to question the creation and existence of the world around me. My secondary school life was much better because I got new friends who actually respected me for what I was. I learned from them how to live the present moment to the fullest. During my 11th grade, the school titled me as the "Whizz-Kid". Even though my parents felt proud of me, I never felt too grand about it.</p>
+                            
+						</div>
+					</section>
+                    
+
+
+        </div>
+        
+        
+        
+        
+        <!-- Eleven -->
+        <div id="wrapper" class="divided panel">
+            <section id="4" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+
+                <div class="content">
+                    <h1><strong>Chapter Eleven</strong></h1>
+                    <h3>The Great Fall</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#39');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch11_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>A failure is not always a mistake, it may simply be the best one can do under the circumstance. The real mistake is to stop trying. I believe it takes a great fall to really achieve the one you want. Just like a storm before a calm, darkness before light, turbulence before quietness, pain before joy, I made sacrifices before the great victory.</p>
+
+                            <p>Astrophysics was the only thing I ever wanted from my life. I had to drop my entire plan by end of my 12th grade. My 12th final grades came very low. I had no other choice but to get into a disdaining college. My second love was towards Computer Science, so I took up CS Engineering.
+
+                            </p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <!-- Twelve -->
+        <div id="wrapper" class="divided  panel">
+            <section id="6" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color4">
+
+                <div class="content">
+                    <h1><strong>Chapter Twelve</strong></h1>
+                    <h3>The Reason</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#42');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch12_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color4">
+                        
+						<div class="content">
+                            <p>I think it is entirely possible to fall in love with someone you've never met. Physicality is an expression of intimacy - not an indication. True love is possibly the most fulfilling of life's secret treasures but love by a lesser standard is still extremely important for the human experience. The argument against true love is created to comfort those who lack it. Today I believe in the possibility of love; that is why I endeavored to trace its joy, its madness. Love's farthest reach is beyond us, no matter how long we love or how much. It will always remain the mute mystery to whose ecstasy and ache we can only surrender with a yes.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color4">
+                        
+						<div class="content">
+                            <p>I did my schooling in an all-boys school, which was one of the reasons I felt diffident to talk to a girl. Those days Facebook and Orkut where trending so much, so I thought of giving it a try. I and my friends had these weird exercises of checking random ladies on Facebook which few of us thought was feeble. That's how I met this girl in 12th grade, ‘the girl from Allahabad’.  When I saw her pictures, I saw something which I never saw in anyone else, maybe my first. Fell in love with her innocent looking pics. Before you judge me, understand why.</p>
+                            
+						</div>
+                        <div class="image">
+                                <img src="img/ch12_2.jpeg" alt="" />
+                            </div>
+					</section>
+        </div>
+
+        
+        
+        
+        
+        <!-- Thirteen -->
+        <div id="wrapper" class="divided  panel">
+            <section id="9" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color2">
+
+                <div class="content">
+                    <h1><strong>Chapter Thirteen</strong></h1>
+                    <h3>The Decision</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#45');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch13_1.jpg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color2">
+                        
+						<div class="content">
+                            <p>The ones who are afraid of heights don't trust themselves enough to jump, but once you are in the air, there's nothing which stops you from reaching the aim. I think that people tend to forget about or ignore the freedom that they have to make choices for themselves and decide what kind of life they wish to live. I can say from experience that I have made plenty of choices based on what I thought other people wanted, and I can honestly say those are the decisions I regret the most. I resent living with regrets based off of choices I made to satisfy other people, I now realize that I have the freedom and right to make choices for myself. I realize that my choices are my own, and I realize that the consequences of my decisions will also be my own, and I will live with those consequences with no regret, and because of this, I will be happy with my choices. Love can direct us to make decisions that we know are not right.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style1 orient-left content-align-left image-position-left fullscreen onload-image-fade-in onload-content-fade-right color2">
+                        
+						<div class="content">
+                            <p>And my choice was to come to this college. I had stalked her so much that I found her near and dear one's phone numbers. I talked to them as different people, sometimes I was college informants, sometimes her own school teachers, sometimes just as her friend. Came up with the hope that she might choose Christ, cause her previous school was a convent school. If you ask did I manipulated her, I don't know the answer, it's more like I don't want to let it out. Intentionally my finals went bad so that whichever college she opted for, I had to find my way in. My parents were very stringent and little possessive about my future like rest of our parents.</p>
+                            
+						</div>
+                        <div class="image">
+                            <img src="img/ch13_2.jpg" alt="" />
+                        </div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        <!-- Fourteen -->
+        <div id="wrapper" class="divided  panel">
+            <section id="12" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color6">
+
+                <div class="content">
+                    <h1><strong>Chapter Fourteen</strong></h1>
+                    <h3>Plan B</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#49');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch14_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color6">
+                        
+						<div class="content">
+                            <p>What I have understood is that not everything happens as planned, unlike in movies. Life is all about handling the situations when things go left and do the best as we can. Well, we cannot have plan B's all the time, because it could distract us from our main plan. I believed in my plan so much that I knew it would succeed. But as I said, things went left, and I had to make changes to my plan. </p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color6">
+                        
+						<div class="content">
+                            <p>She reached the college, not even a month got over she began dating a guy. I was jealous of a person for the first time in my life even though I knew envy blinds a person and makes it impossible for him to think clearly. Just two weeks of following both of them I realized that that won't last for long. So, I decided to show love to another person who was already dating, that's ‘the girl from Mangalore’. I had two intentions. Firstly, I didn't know much about girls, the way they act and respond to a particular situation. Secondly, in the means of loving a random girl, I could let my girl know that to what extent I could go in the name of love and to prove that I am capable of loving. I don't have any explanations for the deeds I did, I just followed my instincts, I had my reasons.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style1 orient-center content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color6">
+                        
+						<div class="content">
+                            <h3>LIFE is an overwhelming<br>secret told by<br>the eyes of God<br>and the only ones<br>who know it are<br>those who<br>denied the sound of<br>voices and listened<br>rather to people's soul.</h3>
+                            <p class="align-right">-Christopher Poindexter</p>
+                            
+						</div>
+                        <div class="image">
+                            <img src="img/ch14_2.jpeg" alt="" />
+                        </div>
+					</section>
+        </div>
+
+
+        
+        
+        
+        <!-- Fifteen -->
+        <div id="wrapper" class="divided  panel">
+            <section id="15" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color4">
+
+                <div class="content">
+                    <h1><strong>Chapter Fifteen</strong></h1>
+                    <h3>A Silver Lining</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#51');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch15_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color4">
+                        
+						<div class="content">
+                            <p>By the mid of my second year, almost nine out of ten people knew that I loved the Mangalorean girl. But never had a proper face to face conversation with her. If anyone actually loves someone, do they just shout about it to everyone irrationally? No, if you actually love someone you would keep it to yourself. This is the time, I introduced ‘the girl from Allahabad’ to my parents without telling them that I love her.</p>
+
+                            <p>Second-year gave me a shimmer of hope. She broke up with that guy out of the bloom presuming I just got a chance over her again. I made a small pun over her to get her attention which ended with an in-depth and articulate conversation. Wistfully she added that she had vowed to never give her heart to any man like she did before. That caught my mind, and I kept on doing things for the Mangalorean girl on one end and I blustered my deeds to my girl on the other end.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        <!-- Sixteen -->
+        <div id="wrapper" class="divided  panel">
+            <section id="18" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <h1><strong>Chapter Sixteen</strong></h1>
+                    <h3>The Inner Voices</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#55');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch16_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>The reason why I love her? True love doesn't happen right away, doesn't happen by accident. It's deliberate, intentional and purposeful, but the moment you realize that whatever you have done was worth it, It's complete. It's not just one thing which made me love her, but a series of events which ended up as the reasons for this book. There were voices inside me, these voices whispered to me all day long. I knew that those were wrong, but I felt those were right for me. No one in existence could or should manipulate your decision - just listen to your voice that speaks inside and people call it instincts.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>I fell for the innocence of her soul which she seemed unaware. The intelligence of hers that made me think hours after her conversations ended. The goodness in her that avoided all the negativity protecting her strength. The way her front hair brushes her face when the wind hits it. The times when she complained about her hair looking messy. The times she hated people taking her pic. The way she rubs her lips. The way she nods her head when she doesn't understand something. The way she corrects her dupatta and pulls down her churidar each time she stood up. The feeling when I looked at her eyes - her eyes are too perfect. The times when my heart stopped when we made eye contact just to sync with the beat of her heart. The way she moves her hands when she wants others to understand her idea. The way she moves her body when she laughs. The times when she gives that look after taking her picture as if she isn't perfect.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>She rings me up saying about the things that happened to her in sobbing tone. But, wait. It's been 8 months since I started talking with her - didn't even told me that she was committed to him whenever I asked her whether she was. I understood that people are not against falling in love with someone or boasting about their relationships, but the deeper issue here is that they are paranoid. They are afraid that they would make a wrong decision about one of the most important things in life and end up feeling dejected, disappointed and hurt; this is what scares them.</p>
+                            
+						</div>
+                        <div class="image">
+                            <img src="img/ch16_2.jpeg" alt="" />
+                        </div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        <!-- Seventeen -->
+        <div id="wrapper" class="divided  panel">
+            <section  id="22" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color7">
+
+                <div class="content">
+                    <h1><strong>Chapter Seventeen</strong></h1>
+                    <h3>Resurgence</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#59');" class="button big wide smooth-scroll-middle">Next Chapter</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch17_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color7">
+                        
+						<div class="content">
+                            <p>Life is a series of experiences, each one of which makes us stronger, even though sometimes it is hard to realize this. Life is too short to waste doing nothing, make every day count because we all don't know when we will leave this world. Cherish the moment you have with loved ones and never regret anything in life, because everything happens for a reason. Every struggle arises for a reason for experience or a lesson. A great journey is never easy and no dose of adversity along the way is ever a waste of time if you learn and grow from those setbacks. Sometimes all we need is a new beginning.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color7">
+                        
+						<div class="content">
+                            <p>The day I realized that I wasted hell lot of time glorifying the wrong person and forgot that the time was ticking fast to tell my feelings to my love. I stopped talking with the Mangalorean girl all of sudden for no reasons. I feigned that she was cheating me. All I wanted was a halt to my pretence and I was sure that whatever feelings I had inside, I wanted to let it out for the first time.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color7">
+                        
+						<div class="content">
+                            <p>Well, soon I started talking with my love. I handled the conversation as genuine and meaningful as I can by decreasing the barrier between us. But, I failed, I couldn't prove her that I was different from the rest. She said she was hurt by the people around her; fake intentions and dishonesty broke her heart. I failed to let her know my love and intention were pure as her soul. I couldn't tell her the truth, the truth that all these years I waited for her and things I did were to capture her attention. I was scared, to tell the truth, scared that she won't believe my words and scared that she would call me a fraud. I planned everything, but when I talked with her I lost myself in the wild storm of her beauty both inside and out. I love her so much and I didn't know what had to be done next.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        <!-- Eighteen -->
+        <div id="wrapper" class="divided  panel">
+            <section  id="27" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color5">
+
+                <div class="content">
+                    <h1><strong>Chapter Eighteen</strong></h1>
+                    <h3>The Scribbling</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#63');" class="button big wide smooth-scroll-middle">Next Chapter</span>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch18_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style3 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <h2>"And in the end, we are just stories to be written, stories to be."</h2>
+                            <p class="align-right">- The Girl from Allahabad</p>
+                            
+						</div>
+                        <div class="image">
+                            <img src="img/ch18_2.jpg" alt="" />
+                        </div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <p>I want to write her things which do not fit on paper, but a drapetomaniac like me will want to run away from any anguish. But, this time I didn't run. I am here scribbling this dismal literature. I am just so scared to touch her soul only to have taken away again, maybe that's why I pushed her away at the first place and that's why I am so guarded, but I don't think I can ever touch it without her love, and I don't know how she can ever love me at all.</p>
+                            <p>Even after doing all the things I claim I have done, I haven't held all this to myself. I made sure I told everything from the first day of college to a friend of mine, a friend who didn't care so much. He didn't care that his disinterest kept my secrets and ought not to worry so much.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color5">
+                        
+						<div class="content">
+                            <p>This might be a prodigious or might be an ordinary book for you, but whoever deploring my resurgence or my decision, I haven't been away guys. I have been working steadily for four long years. If you think I used the Mangalorean girl, I just have one thing to say. Whatever happened between us, it was her choice to take the call or end it. If you think I manipulated or formed her, you are wrong; I couldn't hurt anyone in the process of winning the thing I want. I never had a proper eye to eye conversation with her nor I ever gave her chance to get attached to me. Yet when things got out of the hand, I messed up a little to prove I was the wrong choice for her. But whatever I did to the Mangalorean girl was never to envy my girl, but to prove that I am capable of loving. I never wanted my girl to love for what I did, instead of for what I am.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        <!-- Nineteen -->
+        <div id="wrapper" class="divided  panel">
+            <section  id="22" class="banner invert style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1">
+
+                <div class="content">
+                    <h1><strong>Chapter Nineteen</strong></h1>
+                    <h3>The Odd End</h3>
+
+                </div>
+                <ul class="actions vertical" style="z-index:10000">
+                        <li><a href="content.html" class="button special big wide smooth-scroll-middle">Content</a></li>
+                        <li><span href="" onclick="$.scrollify.move('#66');" class="button big wide smooth-scroll-middle">Finish</span></li>
+                    </ul>
+
+
+                <div class="image">
+                    <img src="img/ch19_1.jpeg" alt="" />
+                </div>
+
+            </section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+                        
+						<div class="content">
+                            <p>Life always has an odd way of making things work out in the end. But, this time the odds aren't in my favor. It's hard to believe looking at these pages and realizing that they were complete bullshit; hard to believe this is the end. By the time you read this line, the story of my life will also be at the end. This book doesn't have an ending, not even a happy one. How can a 20-year-old man write the story of his life, when he didn't even live a quarter of whole? Well, maybe the life was too short for him. The retarded deeds have come to an end, his demented and uncanny ways to get a girl's heart failed. This story isn't just a story about winning the heart, but also to show that when you say ‘mad’ love, you can't define the level of madness under a bound.</p>
+                            
+						</div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right ">
+                        
+						<div class="content">
+                            <p>Unless commitments are made, there are only promises and hopes; but no plans. This story is about my failure and it's something for the world to learn from and not to repeat it. If I can love a wrong girl this much, then think to what extent I love ‘the one’. This isn't the end nor the beginning. My life made me think that we're on our own in our life both terrifying and miserable. There are few comforts. One of them is finding ‘the one’. They can make you feel the world is smaller and safer than it really is because you know they had similar experiences. When you meet people like that, you may find your world feels a little more complete, like the missing piece of a puzzle.</p>
+
+                            <p>Finally, what I want to say is that we are all inevitably connected in some way. Every single one of us all over the world. What one person does affect another like dominoes. One of us falls and another follows. And this keeps going and going and going until we've all fallen. And I fell over and over again for this girl and this is what I did FOR THE GIRL I LOVED.</p>
+                            
+						</div>
+					</section>
+        </div>
+        
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style4 orient-left content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1">
+                        
+						<div class="content">
+                            <h3>Maybe you don’t see me looking at you because you aren’t looking at me. Maybe you don’t hear all the good things I say about you because you’re so focused on the bad. Maybe you’re a lot more wonderful, beautiful, and special for me than you ever gave yourself credit for.</h3><br><br><br>
+                            <ul class="actions vertical" style="z-index:10000">
+                                <li><span href="" onclick="$.scrollify.move('#67');" class="button big wide smooth-scroll-middle">Done Reading</span></li>
+                            </ul>
+						</div>
+                        <div class="image">
+                            <img src="img/chNONE.jpeg" alt="" />
+                        </div>
+					</section>
+        </div>
+        <div id="wrapper" class="divided  panel">
+					<section class="banner invert style1 orient-left content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right ">
+                        
+						<div class="content">
+                            <h2>The End.</h2><br><br><br><span href="" onclick="$.scrollify.move('#1');" class="button special big wide smooth-scroll-middle">DONE</span>
+						</div>
+					</section>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
 		<!-- Scripts -->
 			<script src="jquery.min.js"></script>
@@ -125,6 +1262,9 @@
 			<script src="skel.min.js"></script>
 			<script src="util.js"></script>
 			<script src="main.js"></script>
+        
+            <script src="jquery.scrollify.js"></script>
+            <script src="scroll.main.js"></script>
 
 
 	</body>
