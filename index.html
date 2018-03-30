@@ -4,8 +4,25 @@
 		<title>Untitled</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-		<link rel="stylesheet" href="main.css" />
+        <script src="js/jquery.min.js"></script>
+        <script>
+            jQuery(window).load(function(){
+                jQuery(".loader-overlay").fadeOut(500);
+            });
+        </script>
+        <style>
+            .loader-overlay {
+                width: 100%;
+                height: 100%;
+                background: url('img/preloader.gif') center no-repeat #FFF;
+                z-index: 99999;
+                position: fixed;
+            }
+        </style>
+        <noscript>
+            <style>.loader-overlay { display: none; } </style>
+        </noscript>
+		<link rel="stylesheet" href="css/main.css" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <style>
             .scroll{
@@ -60,92 +77,7 @@
               border-left-width: 4px;
             }
         </style>
-        <script src="jquery.min.js"></script>
-        <script>
-            jQuery(window).load(function(){
-                jQuery(".loader-overlay").fadeOut(500);
-            });
-            
-            $.fn.preload = function() {
-                this.each(function(){
-                    $('<img/>')[0].src = this;
-                });
-            }
-
-            // Usage:
-
-            $(['img/ch1_1.jpeg',
-               'img/ch2_1.jpeg',
-               'img/ch3_1.jpeg',
-               'img/ch4_1.jpeg',
-               'img/ch5_1.jpeg',
-               'img/ch5_2.jpg',
-               'img/ch6_1.jpeg',
-               'img/ch7_1.png',
-               'img/ch8_1.jpg',
-               'img/ch8_2.jpeg',
-               'img/ch9_1.jpg',
-               'img/ch10_1.jpg',
-               'img/ch10_pro.jpeg',
-               'img/ch11_1.jpeg',
-               'img/ch12_1.jpeg',
-               'img/ch12_2.jpeg',
-               'img/ch13_1.jpg',
-               'img/ch13_2.jpg',
-               'img/ch14_1.jpeg',
-               'img/ch14_2.jpeg',
-               'img/ch15_1.jpeg',
-               'img/ch16_1.jpeg',
-               'img/ch16_2.jpeg',
-               'img/ch17_1.jpeg',
-               'img/ch18_1.jpeg',
-               'img/ch18_2.jpg',
-               'img/ch19_1.jpeg',
-               'img/chNONE.jpeg',
-                
-               'img/thumbs/ch1_1.jpg',
-               'img/thumbs/ch2_1.jpeg',
-               'img/thumbs/ch3_1.jpg',
-               'img/thumbs/ch4_1.jpg',
-               'img/thumbs/ch5_1.jpg',
-               'img/thumbs/ch5_2.jpg',
-               'img/thumbs/ch6_1.jpg',
-               'img/thumbs/ch7_1.jpg',
-               'img/thumbs/ch8_1.jpg',
-               'img/thumbs/ch9_1.jpg',
-               'img/thumbs/ch10_1.jpg',
-               'img/thumbs/ch10_pro.jpg',
-               'img/thumbs/ch11_1.jpg',
-               'img/thumbs/ch12_1.jpg',
-               'img/thumbs/ch12_2.jpg',
-               'img/thumbs/ch13_1.jpg',
-               'img/thumbs/ch13_2.jpg',
-               'img/thumbs/ch14_1.jpg',
-               'img/thumbs/ch14_2.jpg',
-               'img/thumbs/ch15_1.jpg',
-               'img/thumbs/ch16_1.jpg',
-               'img/thumbs/ch16_2.jpg',
-               'img/thumbs/ch17_1.jpg',
-               'img/thumbs/ch18_1.jpg',
-               'img/thumbs/ch18_2.jpg',
-               'img/thumbs/ch19_1.jpg',
-               'img/thumbs/chNONE.jpg'
-              ]).preload();
-            
-
-        </script>
-        <style>
-            .loader-overlay {
-                width: 100%;
-                height: 100%;
-                background: url('img/preloader.gif') center no-repeat #FFF;
-                z-index: 99999;
-                position: fixed;
-            }
-        </style>
-        <noscript>
-            <style>.loader-overlay { display: none; } </style>
-        </noscript>
+        
 	</head>
 	<body>
             <div class="loader-overlay"></div>
@@ -1256,15 +1188,82 @@
         
 
 		<!-- Scripts -->
-			<script src="jquery.min.js"></script>
-			<script src="jquery.scrollex.min.js"></script>
-			<script src="jquery.scrolly.min.js"></script>
-			<script src="skel.min.js"></script>
-			<script src="util.js"></script>
-			<script src="main.js"></script>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
         
-            <script src="jquery.scrollify.js"></script>
-            <script src="scroll.main.js"></script>
+            <script src="js/jquery.scrollify.js"></script>
+            <script src="js/scroll.main.js"></script>
+        <script>
+            $.fn.preload = function() {
+                this.each(function(){
+                    $('<img/>')[0].src = this;
+                });
+            }
+
+            // Usage:
+
+            $(['img/ch1_1.jpeg',
+               'img/ch2_1.jpeg',
+               'img/ch3_1.jpeg',
+               'img/ch4_1.jpeg',
+               'img/ch5_1.jpeg',
+               'img/ch5_2.jpg',
+               'img/ch6_1.jpeg',
+               'img/ch7_1.png',
+               'img/ch8_1.jpg',
+               'img/ch8_2.jpeg',
+               'img/ch9_1.jpg',
+               'img/ch10_1.jpg',
+               'img/ch10_pro.jpeg',
+               'img/ch11_1.jpeg',
+               'img/ch12_1.jpeg',
+               'img/ch12_2.jpeg',
+               'img/ch13_1.jpg',
+               'img/ch13_2.jpg',
+               'img/ch14_1.jpeg',
+               'img/ch14_2.jpeg',
+               'img/ch15_1.jpeg',
+               'img/ch16_1.jpeg',
+               'img/ch16_2.jpeg',
+               'img/ch17_1.jpeg',
+               'img/ch18_1.jpeg',
+               'img/ch18_2.jpg',
+               'img/ch19_1.jpeg',
+               'img/chNONE.jpeg',
+                
+               'img/thumbs/ch1_1.jpg',
+               'img/thumbs/ch2_1.jpeg',
+               'img/thumbs/ch3_1.jpg',
+               'img/thumbs/ch4_1.jpg',
+               'img/thumbs/ch5_1.jpg',
+               'img/thumbs/ch5_2.jpg',
+               'img/thumbs/ch6_1.jpg',
+               'img/thumbs/ch7_1.jpg',
+               'img/thumbs/ch8_1.jpg',
+               'img/thumbs/ch9_1.jpg',
+               'img/thumbs/ch10_1.jpg',
+               'img/thumbs/ch10_pro.jpg',
+               'img/thumbs/ch11_1.jpg',
+               'img/thumbs/ch12_1.jpg',
+               'img/thumbs/ch12_2.jpg',
+               'img/thumbs/ch13_1.jpg',
+               'img/thumbs/ch13_2.jpg',
+               'img/thumbs/ch14_1.jpg',
+               'img/thumbs/ch14_2.jpg',
+               'img/thumbs/ch15_1.jpg',
+               'img/thumbs/ch16_1.jpg',
+               'img/thumbs/ch16_2.jpg',
+               'img/thumbs/ch17_1.jpg',
+               'img/thumbs/ch18_1.jpg',
+               'img/thumbs/ch18_2.jpg',
+               'img/thumbs/ch19_1.jpg',
+               'img/thumbs/chNONE.jpg'
+              ]).preload();
+        </script>>
 
 
 	</body>

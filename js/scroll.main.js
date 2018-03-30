@@ -10,7 +10,7 @@ $(function() {
         scrollbars:false,
 		before:function(i) {
 
-			if(i===18 || i===19 || i===30 || i===31 || i==33) {
+			if(i===31 || i===32 || i===40 || i===51 || i===52 ||i===63 || i===64) {
 				$('.arrow, .arrow-up').css("border-color","black");
 			}
             else{
