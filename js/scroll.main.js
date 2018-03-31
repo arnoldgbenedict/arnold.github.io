@@ -12,9 +12,11 @@ $(function() {
             
             if(i===0){
                 $('.arrow-up').css("display","none");
+                $('.contentLink').css("display","none");
             }
             else{
                 $('.arrow-up').css("display","block");
+                 $('.contentLink').css("display","block");
             }
             if(i===66){
                 $('.arrow').css("display","none");
