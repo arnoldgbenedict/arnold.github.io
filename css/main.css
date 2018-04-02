@@ -3382,11 +3382,13 @@
 			@media screen and (orientation: portrait) {
 
 				.banner.style1.fullscreen .content {
-					min-height: 50vh;
+					min-height: 60vh;
+                    font-size: 11px;
+                    
 				}
 
 				.banner.style1.fullscreen .image {
-					height: 50vh;
+					height:40vh;
 				}
 
 			}
@@ -4146,6 +4148,7 @@
 
 			.banner.style5 {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
+                font-size: 12px;
 			}
 
 		}
